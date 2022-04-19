@@ -4,7 +4,7 @@ EKS_CLUSTER_NAME='Jenkins-EKS-Cluster'
 EKS_NAMESPACE='default'
 EKS_JENKINS_CREDENTIAL_ID='kubectl-deploy-credentials'
 ECR_PATH = '505240452116.dkr.ecr.ap-northeast-2.amazonaws.com'
-ECR_IMAGE = 'Jenkins-test'
+ECR_IMAGE = 'jenkins-test'
 AWS_CREDENTIAL_ID = 'aws-credentials'
 
 node {
